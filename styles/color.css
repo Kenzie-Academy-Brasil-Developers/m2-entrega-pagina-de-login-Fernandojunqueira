@@ -1,0 +1,17 @@
+.color-primary{
+    color: var(--color-green-brand);
+}
+.color-green-input{
+    color: var(--color-green-input);
+}
+.color-green-text{
+    color: var(--color-green-text);
+}
+.color-white-text{
+    color: var(--color-white);
+}
+/* Backgrounds */
+
+.bg-color-primary{
+    background-color: var(--color-green-brand);
+}
