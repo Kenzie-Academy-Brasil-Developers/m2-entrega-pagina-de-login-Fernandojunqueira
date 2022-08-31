@@ -1,0 +1,55 @@
+body,main,p,figure,img,figcaption,form,h1,label,input,div,h2,h3,h4,span{
+
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+ ul,ol{
+    list-style: none;
+ }
+
+ :root{
+    --color-green-brand:#00AA00;
+    --color-green-hover: #00E800;
+
+    --color-green-input:#2EE62E;
+    --color-green-text:#88B788;
+
+    --color-white:#FFFFFF;
+    --color-Black:#000000;
+    --color-grey-6:#F8F9FA;
+
+    --button-height-default: 30px;
+
+    --input-height-default: 38px;
+
+    --font-title-1: 24px;
+
+    --font-text-1: 16px;
+    --font-text-2: 15px;
+    --font-text-3: 13px;
+    --font-text-4: 12px;
+    --font-text-5: 10px;
+
+    --font-weight-1: 700;
+    --font-weight-2: 400;
+    --font-weight-3: 200;
+
+    --border-radius-1: 8px;
+    --border-radius-2: 4px;
+
+    --gap-1: 32px;
+    --gap-2: 20px;
+    --gap-3: 16px;
+    --gap-4: 13px;
+    --gap-5: 10px;
+
+ }
+ /* img{
+    width: 100%;
+ } */
+

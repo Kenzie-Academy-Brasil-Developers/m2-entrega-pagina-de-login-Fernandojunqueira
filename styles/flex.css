@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-4)
+}
+
+.column{
+    flex-direction: column;
+}
