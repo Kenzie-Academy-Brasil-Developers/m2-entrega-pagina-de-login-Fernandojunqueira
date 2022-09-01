@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/flex.css">
     <link rel="stylesheet" href="./styles/button.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/modal.css">
     <link rel="icon" href="./assets/img/cheveron-outline-up 4.png">
     <title>Simple and Basic</title>
 </head>
@@ -29,8 +30,18 @@
         <input type="text" placeholder="Digite seu email aqui" class="input-default">
         <input type="text" placeholder="Digite sua senha aqui" class="input-default">
         <button class="button-default">Entrar</button>
-        <h4 class="font-text-3 color-green-text "><img src="./assets/img/Vector (6).png" class="mr-5">Esqueci minha senha</h4>
-        
+        <h4 class="font-text-3 color-green-text " data-modal-open="novaSenha"><img src="./assets/img/Vector (6).png" class="mr-5">Esqueci minha senha</h4>
     </form>
+    <div class="flex column modal-wrapper hidden" id="novaSenha">
+        <div class="flex column modal">
+            <img src="./assets/img/cheveron-outline-up 4.png" alt="logo">
+            <h2 class="font-title-mobile-1 color-green-text">Esqueceu sua senha? Não se preocupe!</h2>
+            <p class="font-text-mobile-2">Insira seu e-mail abaixo e enviaremos as instruções para redefinir sua senha.</p>
+            <input type="text" placeholder="E-mail" name="" id="" class="input-default-modal">
+            <button class="button-default-modal">Enviar</button>
+            <p class="font-title-mobile-1" data-modal-open="novaSenha">&#60 voltar</p>
+        </div>
+    </div>
+    <script type="module" src="./src/script.js"></script>
 </body>
 </html>

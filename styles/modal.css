@@ -1,0 +1,57 @@
+.modal-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}
+
+.modal{
+    background-color: var(--color-white);
+    width: 65%;
+    height: 73%;
+    gap: var(--gap-1);
+    text-align: center;
+}
+.modal > p {
+
+    width: 90%;
+    cursor: pointer;
+
+}
+.modal-wrapper .modal{
+    animation: modalAnimation 1s ease;
+}
+.modal > h2 {
+    width: 90%;
+}
+
+@media ( width > 768px){
+    .modal > p {
+        font-size: var(--font-text-1);
+        width: 60%;
+    }
+    .modal > h2 {
+        font-size: var(--font-title-1);
+    }
+}
+@media (width > 450px){
+    .modal > input {
+
+        width: 300px;
+    }
+}
+
+@keyframes modalAnimation {
+
+    0%{
+        opacity: 0;
+        transform: translateY(-60%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}

@@ -15,3 +15,19 @@
     color: var(--color-white);
     border-color: var(--color-green-hover)
 }
+.input-default-modal{
+    height: var(--input-height-default-modal);
+    width: 90%;
+    padding: 0 10px;
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-text-1);
+    background-color: var(--color-green-input);
+    color: var(--color-white);
+    border-radius: var(--border-radius-1);
+    cursor: pointer;
+}
+.input-default-modal:focus{
+    background-color: var(--color-green-hover);
+    color: var(--color-white);
+    border-color: var(--color-green-hover)
+}
