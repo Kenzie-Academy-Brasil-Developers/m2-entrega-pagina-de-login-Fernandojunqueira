@@ -16,3 +16,20 @@
     color: var(--color-white);
     border-color: var(--color-green-hover)
 }
+
+.button-default-modal{
+    height: var(--button-height-default);
+    padding: 0px 32px;
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-text-1);
+    background-color: var(--color-green-brand);
+    color: var(--color-white);
+    border-radius: var(--border-radius-1);
+    border: transparent;
+    cursor: pointer;
+}
+.button-default-modal:hover{
+    background-color: var(--color-green-hover);
+    color: var(--color-white);
+    border-color: var(--color-green-hover)
+}

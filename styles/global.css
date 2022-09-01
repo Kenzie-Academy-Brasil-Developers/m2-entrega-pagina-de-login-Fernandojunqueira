@@ -26,6 +26,7 @@ body,main,p,figure,img,figcaption,form,h1,label,input,div,h2,h3,h4,span{
     --button-height-default: 30px;
 
     --input-height-default: 38px;
+    --input-height-default-modal: 30px;
 
     --font-title-1: 24px;
 
